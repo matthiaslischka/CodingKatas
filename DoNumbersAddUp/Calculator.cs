@@ -9,11 +9,8 @@ namespace DoNumbersAddUp
 
             for (int i = 0; i < numbers.Length; i++)
             {
-                for (int j = 0; j < numbers.Length; j++)
+                for (int j = i + 1; j < numbers.Length; j++)
                 {
-                    if (i == j)
-                        continue;
-
                     if (numbers[i] + numbers[j] == sum)
                     {
                         return true;

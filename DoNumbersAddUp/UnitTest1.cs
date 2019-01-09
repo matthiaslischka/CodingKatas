@@ -44,6 +44,7 @@ namespace DoNumbersAddUp
         [Theory]
         [InlineData(new[] { 1, 1 }, 2)]
         [InlineData(new[] { 1, 1, 1 }, 2)]
+        [InlineData(new[] { 10, 15, 3, 7 }, 17)]
         public void TwoNumbersOfArray_ShouldAddUpToSum(int[] array, int sum)
         {
             new Calculator().DoNumbersAddUp(array, sum).Should().BeTrue();
