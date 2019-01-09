@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestCommonSubsequence", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayProduct", "ArrayProduct\ArrayProduct.csproj", "{18E81320-D898-4342-9739-4AD44C5198E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoNumbersAddUp", "DoNumbersAddUp\DoNumbersAddUp.csproj", "{F574F205-D04D-4C0F-AD85-6E8E1DDB0A3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{18E81320-D898-4342-9739-4AD44C5198E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18E81320-D898-4342-9739-4AD44C5198E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18E81320-D898-4342-9739-4AD44C5198E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F574F205-D04D-4C0F-AD85-6E8E1DDB0A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F574F205-D04D-4C0F-AD85-6E8E1DDB0A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F574F205-D04D-4C0F-AD85-6E8E1DDB0A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F574F205-D04D-4C0F-AD85-6E8E1DDB0A3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
