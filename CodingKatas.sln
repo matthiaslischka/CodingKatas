@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonSubsequence", "LongestCommonSubsequence\LongestCommonSubsequence.csproj", "{CCF0EAB1-E60B-4D79-B0C8-20ACB47CE4EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestCommonSubsequence", "LongestCommonSubsequence\LongestCommonSubsequence.csproj", "{CCF0EAB1-E60B-4D79-B0C8-20ACB47CE4EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayProduct", "ArrayProduct\ArrayProduct.csproj", "{18E81320-D898-4342-9739-4AD44C5198E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CCF0EAB1-E60B-4D79-B0C8-20ACB47CE4EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCF0EAB1-E60B-4D79-B0C8-20ACB47CE4EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCF0EAB1-E60B-4D79-B0C8-20ACB47CE4EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E81320-D898-4342-9739-4AD44C5198E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E81320-D898-4342-9739-4AD44C5198E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E81320-D898-4342-9739-4AD44C5198E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E81320-D898-4342-9739-4AD44C5198E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
