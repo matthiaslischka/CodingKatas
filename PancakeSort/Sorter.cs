@@ -1,10 +1,13 @@
-﻿namespace PancakeSort
+﻿using System;
+using System.Linq;
+
+namespace PancakeSort
 {
     public class Sorter
     {
         Flipper flipper = new Flipper();
 
-        public int[] Sort(int[] arr)
+        public int[] SortFromBackToFront(int[] arr)
         {
             if (arr.Length < 2)
                 return arr;
@@ -19,6 +22,31 @@
                         j = i - 1;
                     }
                 }
+            }
+
+            return arr;
+        }
+
+        public int[] SortWithMax(int[] arr)
+        {
+            if (arr.Length < 2)
+                return arr;
+
+            int currentLenght = arr.Length;
+            var currentMax = arr.Take(currentLenght).Max();
+
+            while(currentLenght>1)
+            {
+                for (int i = 0; i < currentLenght - 1; i++)
+                {
+                    if (arr[i] == currentMax)
+                    {
+                        arr = MoveToPosition(arr, i, currentLenght - 1);
+                        break;
+                    }
+                }
+                currentLenght--;
+                currentMax = arr.Take(currentLenght).Max();
             }
 
             return arr;

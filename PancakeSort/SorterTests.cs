@@ -8,7 +8,7 @@ namespace PancakeSort
         [Fact]
         public void EmptyArray_ShouldReturnEmptyArray()
         {
-            new Sorter().Sort(new int[0]).Should().BeEmpty();
+            AssertSort(new int[0], new int[0]);
         }
 
         [Fact]
@@ -35,9 +35,12 @@ namespace PancakeSort
 
         private void AssertSort(int[] arr, int[] expectedArray)
         {
-            var actualResult = new Sorter().Sort(arr);
-            actualResult.Should().BeEquivalentTo(expectedArray, c => c.WithStrictOrdering(), $"actual result: {string.Join(", ", actualResult)}");
+            var actualResultSortFromBackToFront = new Sorter().SortFromBackToFront(arr);
+            var actualResultSortWithMax = new Sorter().SortWithMax(arr);
 
+
+            actualResultSortFromBackToFront.Should().BeEquivalentTo(expectedArray, c => c.WithStrictOrdering());
+            actualResultSortWithMax.Should().BeEquivalentTo(expectedArray, c => c.WithStrictOrdering());
         }
     }
 }
