@@ -31,13 +31,13 @@ namespace ArrayProduct
         [Fact]
         public void ArrayWithTwoNumbers_ShouldReturnArrayWithTwoNumbers()
         {
-            GenerateArrayProducts(new[] { 1, 2 }).Should().BeEquivalentTo(new[] { 2, 1 });
+            GenerateArrayProducts(new[] { 1, 2 }).Should().BeEquivalentTo(new[] { 2, 1 }, c => c.WithStrictOrdering());
         }
 
         [Fact]
         public void ArrayWithOnlyZeros_ShouldReturnArrayWithOnlyZeros()
         {
-            GenerateArrayProducts(new[] { 0, 0, 0 }).Should().BeEquivalentTo(new[] { 0, 0, 0 });
+            GenerateArrayProducts(new[] { 0, 0, 0 }).Should().BeEquivalentTo(new[] { 0, 0, 0 }, c => c.WithStrictOrdering());
         }
 
         [Theory]
@@ -49,7 +49,7 @@ namespace ArrayProduct
         [InlineData(new[] { 0, 2, 2 }, new[] { 4, 0, 0 })]
         public void ArrayWithThreeNumbers_ShouldReturnMultipliedArray(int[] input, int[] expectedOutput)
         {
-            GenerateArrayProducts(input).Should().BeEquivalentTo(expectedOutput);
+            GenerateArrayProducts(input).Should().BeEquivalentTo(expectedOutput, c => c.WithStrictOrdering());
         }
 
         public int[] GenerateArrayProducts(int[] input)
