@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoNumbersAddUp", "DoNumbers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PancakeSort", "PancakeSort\PancakeSort.csproj", "{D1F10B76-0B3E-4786-9DB5-0BF7BE28ECBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSerializer", "TreeSerializer\TreeSerializer.csproj", "{498F4011-F1BB-4E04-8804-F636C0C124FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D1F10B76-0B3E-4786-9DB5-0BF7BE28ECBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1F10B76-0B3E-4786-9DB5-0BF7BE28ECBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1F10B76-0B3E-4786-9DB5-0BF7BE28ECBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{498F4011-F1BB-4E04-8804-F636C0C124FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{498F4011-F1BB-4E04-8804-F636C0C124FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{498F4011-F1BB-4E04-8804-F636C0C124FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{498F4011-F1BB-4E04-8804-F636C0C124FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
