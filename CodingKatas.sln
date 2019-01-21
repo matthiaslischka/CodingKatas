@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PancakeSort", "PancakeSort\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSerializer", "TreeSerializer\TreeSerializer.csproj", "{498F4011-F1BB-4E04-8804-F636C0C124FF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonteCarloPi", "MonteCarloPi\MonteCarloPi.csproj", "{A54DE62A-3EBC-4EA6-BBF7-2FD1E307D9C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{498F4011-F1BB-4E04-8804-F636C0C124FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{498F4011-F1BB-4E04-8804-F636C0C124FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{498F4011-F1BB-4E04-8804-F636C0C124FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54DE62A-3EBC-4EA6-BBF7-2FD1E307D9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54DE62A-3EBC-4EA6-BBF7-2FD1E307D9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54DE62A-3EBC-4EA6-BBF7-2FD1E307D9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54DE62A-3EBC-4EA6-BBF7-2FD1E307D9C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
